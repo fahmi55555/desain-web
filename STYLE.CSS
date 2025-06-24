@@ -1,0 +1,452 @@
+body {
+    font: 16 arial, sans-serif;
+    background-color: rgb(68, 57, 53);
+    font-family: 'montserrat', Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(99, 35, 35);
+} 
+
+.header {
+    padding: 15px;
+    text-align: center;
+}
+
+.judul {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 50;
+}
+.judul:hover {
+    color: bisque;
+    text-decoration: none;
+    
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(246, 246, 247);
+    padding: 10px;
+}
+
+.header a:hover {
+    color: lightgoldenrodyellow;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.gambar {
+    background-image: url(LNGITT.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: 0 ;
+    border-top: rgb(5, 5, 5) 3px solid;
+    border-bottom: rgb(7, 7, 7) 3px solid;
+}
+
+.content {
+    padding: 25px;
+}
+
+.content .judul-kecil {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+.content .penulis a {
+    text-decoration: none;
+    color: rgb(251, 251, 252);
+}
+
+.footer {
+    background-color: rgb(99, 24, 24);
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.containerfoto {
+    display: grid;
+               background-color:#f8f3f3;
+               column-gap: 10px;
+               grid-template-columns: auto auto auto auto auto ;
+               padding: 10px;
+   }
+.fotosaya {
+   background-image: url(fhmi1.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 100% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fotosaya:hover {
+      transform: scale(1.30);
+      }
+
+.fotosaya2 {
+               background-image: url(fhmi2.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fotosaya2:hover {
+      transform: scale(1.30);
+      }    
+
+.judulsaya {
+    font-size: 40px;
+    font-weight: 50;
+}
+.judulsaya:hover {
+    color: rgb(200, 198, 209);
+    text-decoration: none;
+    }
+
+.fotosaya3 {
+               background-image: url(fhmi3.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fotosaya3:hover {
+      transform: scale(1.30);
+      }    
+
+.fotosaya4 {
+               background-image: url(fhmi4.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 10% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fotosaya4.fotosaya5 {
+      transform: scale(1.30);
+      }      
+
+.fotosaya5 {
+               background-image: url(fhmi5.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fotosaya5:hover {
+      transform: scale(1.30);
+      }
+      
+.containerfoto1 {
+    display: grid;
+               background-color:#d3bfbf;
+               column-gap: 10px;
+               grid-template-columns: auto auto auto auto auto ;
+               padding: 10px; 
+               }
+     
+.fotokluarga1 {
+   background-image: url(kluarga01.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 100% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fotokluarga1:hover {
+      transform: scale(1.30);
+      }  
+
+.fotokluarga2 {
+   background-image: url(kluarga2.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 120% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fotokluarga2:hover {
+      transform: scale(1.30);
+      }
+      
+.fotokluarga3 {
+   background-image: url(kluarga02.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fotokluarga3:hover {
+      transform: scale(1.30);
+      }
+      
+.fotokluarga4 {
+   background-image: url(kluarga4.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 100% bottom;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fotokluarga4:hover {
+      transform: scale(1.30);
+      }
+      
+.fotokluarga5 {
+   background-image: url(kluarga5.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+               
+}
+    
+.fotokluarga5:hover {
+      transform: scale(1.30);
+      }    
+      
+.containerfoto2 {
+    display: grid;
+               background-color:#976e6e;
+               column-gap: 10px;
+               grid-template-columns: auto auto auto auto auto ;
+               padding: 10px; 
+               }
+     
+               /*temanteman*/
+.fototeman1 {
+   background-image: url(teman1.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fototeman1:hover {
+      transform: scale(1.30);
+      }  
+
+.fototeman2 {
+   background-image: url(teman02.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 10% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fototeman2:hover {
+      transform: scale(1.30);
+      }
+      
+.fototeman3 {
+   background-image: url(teman11.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fototeman3:hover {
+      transform: scale(1.30);
+      }
+      
+.fototeman4 {
+   background-image: url(teman04.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 100% bottom;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+}
+    
+.fototeman4:hover {
+      transform: scale(1.30);
+      }
+      
+.fototeman5 {
+   background-image: url(teman07.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+               
+}
+    
+.fototeman5:hover {
+      transform: scale(1.30);
+      }
+      
+.fototeman6 {
+   background-image: url(teman6.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+               
+}
+    
+.fototeman6:hover {
+      transform: scale(1.30);
+      }
+      
+      .fototeman7 {
+   background-image: url(teman10.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+               
+}
+    
+.fototeman7:hover {
+      transform: scale(1.30);
+      }
+
+      .fototeman8 {
+   background-image: url(teman8.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+               
+}
+    
+.fototeman8:hover {
+      transform: scale(1.30);
+      }
+
+      .fototeman9 {
+   background-image: url(teman12.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+               
+}
+    
+.fototeman9:hover {
+      transform: scale(1.30);
+      }
+
+      .fototeman10 {
+   background-image: url(teman13.jpg);
+               border: 1px solid rgb(99, 24, 24) ;
+               background-size: cover;
+               background-position: 50% center;
+               border-radius: 10px;
+               padding: 10px;
+               height: 200px;
+               width: 110px;
+               
+}
+    
+.fototeman10:hover {
+      transform: scale(1.30);
+      }
+
+.container2 {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.berita1 {
+  background-image: url(berita1.jpg);
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.berita2 {
+  background-image: url(berita2.webp);
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.berita3 {
+  background-image: url(berita3.webp);
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
